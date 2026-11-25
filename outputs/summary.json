@@ -1,0 +1,96 @@
+{
+  "iterations": 100000,
+  "final": {
+    "iteration": 100000,
+    "exploitability": 0.0006326551300012938,
+    "p1_expected_value": -0.05555354519922787,
+    "training_avg_game_value": -0.05577213188025373
+  },
+  "all_checks_passed": true,
+  "checks": [
+    {
+      "check": "Game value for P1 (-1/18)",
+      "got": -0.0556,
+      "expected": -0.0556,
+      "pass": true
+    },
+    {
+      "check": "Exploitability (~0)",
+      "got": 0.0006,
+      "expected": 0.0,
+      "pass": true
+    },
+    {
+      "check": "P1 bluff freq with J (alpha) in [0, 1/3]",
+      "got": 0.22,
+      "expected": "0 to 0.3333",
+      "pass": true
+    },
+    {
+      "check": "P1 bets K with prob 3*alpha",
+      "got": 0.663,
+      "expected": 0.66,
+      "pass": true
+    },
+    {
+      "check": "P1 bets Q first move (0)",
+      "got": 0.0,
+      "expected": 0.0,
+      "pass": true
+    },
+    {
+      "check": "P1 calls with Q after check-bet (alpha + 1/3)",
+      "got": 0.5553,
+      "expected": 0.5533,
+      "pass": true
+    },
+    {
+      "check": "P1 calls with K after check-bet (1)",
+      "got": 1.0,
+      "expected": 1.0,
+      "pass": true
+    },
+    {
+      "check": "P1 calls with J after check-bet (0)",
+      "got": 0.0,
+      "expected": 0.0,
+      "pass": true
+    },
+    {
+      "check": "P2 calls with J facing bet (0)",
+      "got": 0.0,
+      "expected": 0.0,
+      "pass": true
+    },
+    {
+      "check": "P2 calls with Q facing bet (1/3)",
+      "got": 0.3359,
+      "expected": 0.3333,
+      "pass": true
+    },
+    {
+      "check": "P2 calls with K facing bet (1)",
+      "got": 1.0,
+      "expected": 1.0,
+      "pass": true
+    },
+    {
+      "check": "P2 bluffs with J after check (1/3)",
+      "got": 0.3318,
+      "expected": 0.3333,
+      "pass": true
+    },
+    {
+      "check": "P2 bets Q after check (0)",
+      "got": 0.0,
+      "expected": 0.0,
+      "pass": true
+    },
+    {
+      "check": "P2 bets K after check (1)",
+      "got": 1.0,
+      "expected": 1.0,
+      "pass": true
+    }
+  ]
+}

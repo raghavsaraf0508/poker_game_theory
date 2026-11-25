@@ -1,0 +1,13 @@
+infoset,player,situation,p_pass,p_bet
+J,P1,"J, first to act",0.78,0.22
+K,P1,"K, first to act",0.337,0.663
+Q,P1,"Q, first to act",1.0,0.0
+Jpb,P1,"J, after check, facing P2's bet",1.0,0.0
+Kpb,P1,"K, after check, facing P2's bet",0.0,1.0
+Qpb,P1,"Q, after check, facing P2's bet",0.4447,0.5553
+Jb,P2,"J, facing P1's bet",1.0,0.0
+Jp,P2,"J, after P1 checks",0.6682,0.3318
+Kb,P2,"K, facing P1's bet",0.0,1.0
+Kp,P2,"K, after P1 checks",0.0,1.0
+Qb,P2,"Q, facing P1's bet",0.6641,0.3359
+Qp,P2,"Q, after P1 checks",1.0,0.0

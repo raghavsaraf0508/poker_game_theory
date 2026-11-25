@@ -1,0 +1,6 @@
+opponent,equilibrium_ev_exact,equilibrium_ev_simulated,exploiter_ev_exact,exploiter_ev_simulated,extra_profit_from_exploiting
+Calling station,0.13858,0.14119,0.41667,0.42529,0.27808
+Over-folder,-0.00063,-0.00171,0.25,0.25161,0.25063
+Maniac,0.11187,0.10429,0.33333,0.33584,0.22147
+Over-bluffer,0.00025,0.0015,0.41667,0.41825,0.41642
+Random,0.14809,0.14893,0.45833,0.46148,0.31024

@@ -1,0 +1,145 @@
+{
+  "hands_per_matchup": 200000,
+  "seed": 7,
+  "matchups": [
+    {
+      "opponent": "Calling station",
+      "equilibrium_ev_exact": 0.13858,
+      "equilibrium_ev_simulated": 0.14119,
+      "exploiter_ev_exact": 0.41667,
+      "exploiter_ev_simulated": 0.42529,
+      "extra_profit_from_exploiting": 0.27808
+    },
+    {
+      "opponent": "Over-folder",
+      "equilibrium_ev_exact": -0.00063,
+      "equilibrium_ev_simulated": -0.00171,
+      "exploiter_ev_exact": 0.25,
+      "exploiter_ev_simulated": 0.25161,
+      "extra_profit_from_exploiting": 0.25063
+    },
+    {
+      "opponent": "Maniac",
+      "equilibrium_ev_exact": 0.11187,
+      "equilibrium_ev_simulated": 0.10429,
+      "exploiter_ev_exact": 0.33333,
+      "exploiter_ev_simulated": 0.33584,
+      "extra_profit_from_exploiting": 0.22147
+    },
+    {
+      "opponent": "Over-bluffer",
+      "equilibrium_ev_exact": 0.00025,
+      "equilibrium_ev_simulated": 0.0015,
+      "exploiter_ev_exact": 0.41667,
+      "exploiter_ev_simulated": 0.41825,
+      "extra_profit_from_exploiting": 0.41642
+    },
+    {
+      "opponent": "Random",
+      "equilibrium_ev_exact": 0.14809,
+      "equilibrium_ev_simulated": 0.14893,
+      "exploiter_ev_exact": 0.45833,
+      "exploiter_ev_simulated": 0.46148,
+      "extra_profit_from_exploiting": 0.31024
+    }
+  ],
+  "all_checks_passed": true,
+  "checks": [
+    {
+      "check": "Calling station: equilibrium never loses (exact EV >= -0.002)",
+      "pass": true
+    },
+    {
+      "check": "Calling station: simulated equilibrium EV matches exact (within 4 SE = 0.0134)",
+      "pass": true
+    },
+    {
+      "check": "Calling station: simulated exploiter EV matches exact (within 4 SE = 0.0134)",
+      "pass": true
+    },
+    {
+      "check": "Calling station: exploiting earns at least as much as equilibrium",
+      "pass": true
+    },
+    {
+      "check": "Over-folder: equilibrium never loses (exact EV >= -0.002)",
+      "pass": true
+    },
+    {
+      "check": "Over-folder: simulated equilibrium EV matches exact (within 4 SE = 0.0134)",
+      "pass": true
+    },
+    {
+      "check": "Over-folder: simulated exploiter EV matches exact (within 4 SE = 0.0134)",
+      "pass": true
+    },
+    {
+      "check": "Over-folder: exploiting earns at least as much as equilibrium",
+      "pass": true
+    },
+    {
+      "check": "Maniac: equilibrium never loses (exact EV >= -0.002)",
+      "pass": true
+    },
+    {
+      "check": "Maniac: simulated equilibrium EV matches exact (within 4 SE = 0.0134)",
+      "pass": true
+    },
+    {
+      "check": "Maniac: simulated exploiter EV matches exact (within 4 SE = 0.0134)",
+      "pass": true
+    },
+    {
+      "check": "Maniac: exploiting earns at least as much as equilibrium",
+      "pass": true
+    },
+    {
+      "check": "Over-bluffer: equilibrium never loses (exact EV >= -0.002)",
+      "pass": true
+    },
+    {
+      "check": "Over-bluffer: simulated equilibrium EV matches exact (within 4 SE = 0.0134)",
+      "pass": true
+    },
+    {
+      "check": "Over-bluffer: simulated exploiter EV matches exact (within 4 SE = 0.0134)",
+      "pass": true
+    },
+    {
+      "check": "Over-bluffer: exploiting earns at least as much as equilibrium",
+      "pass": true
+    },
+    {
+      "check": "Random: equilibrium never loses (exact EV >= -0.002)",
+      "pass": true
+    },
+    {
+      "check": "Random: simulated equilibrium EV matches exact (within 4 SE = 0.0134)",
+      "pass": true
+    },
+    {
+      "check": "Random: simulated exploiter EV matches exact (within 4 SE = 0.0134)",
+      "pass": true
+    },
+    {
+      "check": "Random: exploiting earns at least as much as equilibrium",
+      "pass": true
+    },
+    {
+      "check": "P1 alpha: guaranteed EV flat at -1/18 for alpha in [0, 1/3]",
+      "pass": true
+    },
+    {
+      "check": "P1 alpha: guaranteed EV falls below -1/18 once alpha > 1/3",
+      "pass": true
+    },
+    {
+      "check": "P2 bluff freq with Jack after check (eq 1/3): guaranteed EV is maximised at 1/3 (= +1/18)",
+      "pass": true
+    },
+    {
+      "check": "P2 call freq with Queen facing bet (eq 1/3): guaranteed EV is maximised at 1/3 (= +1/18)",
+      "pass": true
+    }
+  ]
+}
